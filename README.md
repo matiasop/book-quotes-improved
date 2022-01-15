@@ -1,24 +1,8 @@
 # book-quotes-improved
 
-## Project setup
-```
-npm install
-```
+Improved version of my [previous book quote web page.](https://github.com/matiasop/book-quotes)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## TODO
+- Dark/ light mode 
+- Search books by title or author
+- Sort books by title, author or date
