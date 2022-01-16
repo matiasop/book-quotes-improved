@@ -23,7 +23,6 @@ export default defineComponent({
       metadataList: [] as Metadata[],
     };
   },
-  methods: {},
   mounted() {
     this.quotesList = getDataFromJSON<Quote>(quotes_complete);
     this.metadataList = getDataFromJSON<Metadata>(books_metadata);
