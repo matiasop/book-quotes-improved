@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "resolveJsonModule": true,
     "target": "esnext",
     "module": "esnext",
     "strict": true,
@@ -23,7 +24,7 @@
       "esnext",
       "dom",
       "dom.iterable",
-      "scripthost"
+      "scripthost",
     ]
   },
   "include": [
@@ -35,5 +36,5 @@
   ],
   "exclude": [
     "node_modules"
-  ]
+  ],
 }
