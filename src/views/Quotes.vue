@@ -11,8 +11,7 @@ import { defineComponent } from "vue";
 
 import quotes_complete from "@/db/quotes_complete.json";
 import books_metadata from "@/db/books_metadata.json";
-import getQuotes from "@/utils/getQuotes";
-import getMetadata from "@/utils/getMetadata";
+import getDataFromJSON from "@/utils/getDataFromJSON";
 import Quote from "@/types/Quote";
 import Metadata from "@/types/Metadata";
 
@@ -26,8 +25,8 @@ export default defineComponent({
   },
   methods: {},
   mounted() {
-    this.quotesList = getQuotes(quotes_complete);
-    this.metadataList = getMetadata(books_metadata);
+    this.quotesList = getDataFromJSON<Quote>(quotes_complete);
+    this.metadataList = getDataFromJSON<Metadata>(books_metadata);
   },
 });
 </script>
