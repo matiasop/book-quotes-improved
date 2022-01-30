@@ -1,8 +1,9 @@
 <template>
   <div class="quotes">
     <h1>All Books Quotes</h1>
-    <p>{{ quotesList }}</p>
-    <p>{{ metadataList }}</p>
+    <!-- <p>{{ quotesList }}</p> -->
+    <!-- <p>{{ metadataList }}</p> -->
+    <p>puchu</p>
   </div>
 </template>
 
